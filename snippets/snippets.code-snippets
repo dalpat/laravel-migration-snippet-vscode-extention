@@ -1,0 +1,9 @@
+{
+    "Laravel Migration: id": {
+		"prefix": "m.id",
+		"body": [
+			"$table->id();",
+		],
+		"description": "$table->id();"
+	},
+}

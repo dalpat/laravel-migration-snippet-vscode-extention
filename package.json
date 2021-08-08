@@ -1,0 +1,25 @@
+{
+    "name": "laravelmigrationsnippets",
+    "displayName": "Laravel Migrations Snippets",
+    "description": "Snippets for laravel migration file",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dalpat/laravel-migration-snippet-vscode-extention.git"
+    },
+    "icon": "icon.png",
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "php",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
